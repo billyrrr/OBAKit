@@ -1,0 +1,4 @@
+obakitcore=$(sourcekitten doc --module-name OBAKitCore)
+obakit=$(sourcekitten doc --module-name OBAKit)
+echo ${obakitcore%?}', '${obakit:1} > kitty.json
+jazzy --sourcekitten-sourcefile kitty.json --config .jazzy.json
