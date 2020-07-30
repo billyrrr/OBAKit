@@ -2,20 +2,6 @@
 build/
 DerivedData/
 
-## Xcodegen
-Apps/**/Info.plist
-Apps/**/*.entitlements
-TodayView/**/*.entitlements
-OBAKit/Info.plist
-OBAKitCore/Info.plist
-OBAKitTests/Info.plist
-TodayView/Info.plist
-/project.yml
-
-## SwiftPM
-OBAKit.xcodeproj/**
-!OBAKit.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved
-
 ## Various settings
 *.pbxuser
 !default.pbxuser
